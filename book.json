@@ -8,15 +8,15 @@
     "epub": "styles/epub.css"
   },
   "plugins": [
-    "splitter",
-    "expandable-chapters-small",
-    "popup",
-    "code",
     "-lunr",
     "-search",
     "search-pro",
     "-sharding",
     "anchor-navigation-ex",
+    "splitter",
+    "expandable-chapters",
+    "splitter",
+    "code",
     "ace",
     "codeblock-filename",
     "terminal"

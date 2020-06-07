@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gitbook build ./ ./docs",
     "serve": "gitbook serve ./ ./docs",
-    "go": "gitbook build ./ ./docs & gitbook serve"
+    "go": "gitbook build ./ ./docs & gitbook serve ./ ./docs"
   },
   "repository": {
     "type": "git",
