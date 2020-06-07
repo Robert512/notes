@@ -8,11 +8,38 @@
     "epub": "styles/epub.css"
   },
   "plugins": [
-    "code"
+    "splitter",
+    "expandable-chapters-small",
+    "popup",
+    "code",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-sharding",
+    "anchor-navigation-ex",
+    "ace",
+    "codeblock-filename",
+    "terminal"
   ],
   "pluginsConfig": {
+    "fontsettings": {
+      "theme": "white",
+      "famile": "sans",
+      "size": 1
+    },
     "code": {
       "copyButtons": false
+    },
+    "anchor-navigation-ex": {
+      "isShowToTitleIcon": true,
+      "toLevel1Icon": "fa fa-hand-o-right",
+      "toLevel2Icon": "fa fa-hand-o-right",
+      "toLevel3Icon": "fa fa-hand-o-right"
+    },
+    "terminal": {
+      "copyButtons": true,
+      "fade": false,
+      "style": "black"
     }
   }
 }
