@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build ./ ./docs",
+    "serve": "gitbook serve ./ ./docs",
+    "go": "gitbook build ./ ./docs & gitbook serve ./ ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robert512/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robert512/notes/issues"
+  },
+  "homepage": "https://github.com/Robert512/notes#readme"
+}
