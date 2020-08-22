@@ -10,7 +10,7 @@ https://mp.weixin.qq.com/s/cfa1f8NR6hs42I5FYCkl6A
 
 [面试精选109-StringBuilder是线程不安全的](https://mp.weixin.qq.com/s/O94O4vl6sKv-MlZRTHgmxQ)
 
-
+[枚举](https://mp.weixin.qq.com/s/tFhQ8NFJKn2r5VEt4O7M8A)
 
 # JVM
 

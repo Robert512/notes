@@ -1,8 +1,0 @@
-java8：lambda、static、enum
-static
-enum
-方法引用
-泛型
-方法传值，内部类使用final
-
-	
