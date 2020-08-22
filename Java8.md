@@ -193,8 +193,7 @@ IntStream.range(1, 100)
 // 并行流使用的线程池: ForkJoinPool.commonPool
 // 默认的线程数是 当前机器的cpu个数
 // 使用这个属性可以修改默认的线程数
-System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism",
-"20");
+System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism","20");
 IntStream.range(1, 100).parallel().peek(StreamDemo5::debug).count();
 
 // 使用自己的线程池, 不使用默认线程池, 防止任务被阻塞
@@ -265,7 +264,7 @@ String joined = stream.collect(Collectors.joining(",", "{", "}"));// "{I,love,yo
 
 ## 运行机制
 
-
+底层通过Sink的begin、end等API去实现Pipleline视图。
 
 ![1593076114915](Java8.assets/1593076114915.png)
 
@@ -285,7 +284,7 @@ Optional<T>类（java.util.Optional）是一个容器类，代表一个值存在
 - isPresent()：判断是否包含值
 - orElse(T t)：如果调用对象包含值，返回该值，否则返回t
 - orElseGet(Supplier s)：如果调用对象包含值，返回该值，否则返回s获取的值
-- map(Function f)：如果油脂对其处理，并且返回处理后的Optional，否则返回Optional.empty()
+- map(Function f)：如果有值对其处理，并且返回处理后的Optional，否则返回Optional.empty()
 - flatMap(Fucntion mapper)：与map类似，要求返回值必须是Optional
 
 
@@ -301,3 +300,5 @@ Optional<T>类（java.util.Optional）是一个容器类，代表一个值存在
 [学习指南](https://mp.weixin.qq.com/s/0FzUeTvf9jH3pBEH9yEc0g#)
 
 [后端进阶-Lambda](https://objcoding.com/2019/03/04/lambda/#lambda-and-anonymous-classesi)
+
+[java基基-java8](https://mp.weixin.qq.com/s/wqU6jUTlg4zgF0a1MjxqKw)

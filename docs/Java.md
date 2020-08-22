@@ -49,3 +49,13 @@ https://mp.weixin.qq.com/s/cfa1f8NR6hs42I5FYCkl6A
 
 [面试精选110-Redis分布式锁如何解决锁超时问题](Redis分布式锁如何解决锁超时问题)
 
+
+
+# 协议
+
+WebService是解决系统通信的技术，CXF是目前最主流的WebService开发框架，由Apache提供。
+CXF WebService 开发，主要分为两种服务提供方式 WS 、RS。
+
+JAX-WS 传输数据，就是 XML 格式，基于 SOAP 协议；
+JAX-RS 传输数据，传输 XML 格式或者 JSON 格式，基于 HTTP 协议。
+
